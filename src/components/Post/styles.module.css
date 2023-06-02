@@ -1,0 +1,159 @@
+.container {
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 38rem;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.titlePage {
+  background-color: rgb(70, 166, 225);
+  height: 50px;
+  text-align: left;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 1rem;
+  border: solid 1px #ccc;
+  width: 32rem;
+  margin: 25px 25px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 5px;
+}
+
+label {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+input[type="text"],
+textarea {
+  width: 97%;
+  padding: 5px;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+/* Post Criado */
+
+/*.post {
+  display: flex;
+  flex-direction: column;
+  width: 91%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  margin: 25px 25px;
+  padding: 0 15px;
+}
+
+.titlePost {
+  background-color: rgb(70, 166, 225);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-radius: 0.3rem;
+  height: 40px;
+  width: 100%;
+
+  font-size: 1rem;
+}
+
+.titlePost h3 {
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 11px;
+  color: #bebebe;
+}
+
+.posted {
+  flex: 1;
+}
+
+.posted p {
+  margin: 0;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 15px;
+}
+*/
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 91%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  margin: 25px auto;
+  padding: 0;
+}
+
+.titlePost {
+  background-color: rgb(70, 166, 225);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  border-radius: 0.3rem;
+  height: 40px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.titlePost h3 {
+  margin: 0;
+  overflow-wrap: break-word;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+.iconsTile {
+  gap: 10px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 11px;
+  color: #bebebe;
+}
+
+.posted {
+  flex: 1;
+}
+
+.posted p {
+  margin: 0;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 15px;
+}
